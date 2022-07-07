@@ -1,12 +1,16 @@
 <?php
 /* Class AutoRSS v 1.0
-Autor : Roberto Aleman
+Author:Roberto Aleman
+Website: ventics.com
 https://github.com/robertoaleman
 General Public Licence , GPL */
+
 // call to auto rss class
 require_once("autorss.php");
+
 //create new object
 $newrss = new autorss();
+
 /* example of use and orden of vars :
 $document_type : document type, default : Content-type:text/xml
 $path: absolute path of your folder, example path : http://ventics.com/autorss/
