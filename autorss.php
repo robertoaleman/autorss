@@ -1,11 +1,15 @@
 <?php
-/* CLASS AUTORSS V 1.0 Autor : Roberto Aleman
+/* 
+CLASS AUTORSS V 1.0 
+Autor : Roberto Aleman
+Website: ventics.com
 https://github.com/robertoaleman
 This class is to automatic read and show  the files in a directory as rss 2.0 version,
 only configure the config.php file with de globals vars and xml and rss versions,
 the directory path and put config, callfile and autorss in directory to show at rss channel.
 i apply to read a folder of images and show images gallery to rss channel with feedreader. Enjoy!!
 GENERAL PUBLIC LICENCE , GPL */
+
 class autorss
 {
 	public function show($document_type,$path,$xmlversion,$encoding,$rssversion,$atomversion,$title,$homelink,$description,$language,$lastupdate,$callfile,$generator,$permalink,$category)
